@@ -1,0 +1,145 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(135deg, #fff0f5, #f5efff, #fff8e7);
+    color: #72566d;
+}
+
+section {
+    max-width: 480px;
+    margin: 35px auto;
+    padding: 28px;
+    background-color: #fffafd;
+    border: 2px solid #f7c9df;
+    border-radius: 25px;
+    box-shadow: 0 8px 25px rgba(220, 150, 190, 0.20);
+}
+
+form {
+    display: grid;
+    gap: 12px;
+}
+
+h2, h3 {
+    color: #c47ca5;
+    text-align: center;
+}
+
+h3 {
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 30px;
+    border-bottom: 2px dashed #f2c4dc;
+    padding-bottom: 10px;
+}
+
+label {
+    font-weight: bold;
+    color: #a8799b;
+    margin-right: 4px;
+}
+
+input[type="text"] {
+    padding: 12px;
+    border: 2px solid #f3d3e5;
+    border-radius: 12px;
+    background-color: #fff5fa;
+    color: #72566d;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+input::placeholder {
+    color: #c9a9bd;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #d99ac0;
+    box-shadow: 0 0 10px #f5c9df;
+    background-color: #ffffff;
+}
+
+button {
+    background: linear-gradient(135deg, #f6bfd9, #d9c4f5);
+    color: #805d7c;
+    border: none;
+    padding: 12px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(200, 150, 190, 0.18);
+}
+
+button:hover {
+    transform: translateY(-3px);
+    background: linear-gradient(135deg, #f3aeca, #cbb0ee);
+    box-shadow: 0 6px 15px rgba(200, 130, 180, 0.3);
+}
+
+button:active {
+    transform: scale(0.97);
+}
+
+#resultado2, #resultado3, #resultado4 {
+    padding: 12px;
+    border-radius: 12px;
+    background-color: #fff0f6;
+    border: 1px solid #f5d1e3;
+}
+
+#resultado11 {
+    background-color: #f7f0ff;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+#resultado22, #resultado33, #resultado44 {
+    padding: 12px;
+    border-radius: 12px;
+    background-color: #f5efff;
+    border: 1px solid #e4d5fa;
+    margin: 8px 0;
+}
+
+#resParseInt, #resParseFloat, #resNumber, #resSuma {
+    font-weight: bold;
+    color: #a36eaa;
+    background-color: #fff0f7;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+p {
+    line-height: 1.6;
+    color: #856c82;
+    background-color: #fff7fb;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+section::before {
+    content: "♡ ୨୧ ♡";
+    display: block;
+    text-align: center;
+    color: #e5a4c5;
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+@media (max-width: 550px) {
+    section {
+        margin: 10px auto;
+        padding: 20px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+}
